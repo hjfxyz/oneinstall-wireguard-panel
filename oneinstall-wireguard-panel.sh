@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-### Author:jeff
+### Author:wolian
 ### Date:2022/11/17
-### E-mail:jeff@wolian.net
+### E-mail:www@wolian.net
 ufw disable && apt update -y 
 apt install git gunicorn python3-pip  -y
 curl -O https://raw.githubusercontent.com/Nyr/wireguard-install/master/wireguard-install.sh
